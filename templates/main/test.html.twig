@@ -2,7 +2,13 @@
 
 {% block body %}
     <h1>Test</h1>
+
+    <div>{{ mySerie.title }}</div>
+
     <div>
+
+        <div>{{ "now"|date('Y') }}</div>
+
         {# Crée et affiche une variable #}
         {% set name = "Pierre-Louis" %}
 
